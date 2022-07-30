@@ -1,0 +1,10 @@
+.boarder {
+   border-style: solid;
+   border-color: black;
+   margin-top: 5px;
+   padding-top: 10px;
+}
+
+.header {
+    text-align: center;
+}

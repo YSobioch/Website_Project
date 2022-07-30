@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="header"><i>Guitar Co.</i></h1>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="guitar-icon.png" alt="" width="45" height="45"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Home_page.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Guitars
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li>
+                          <a class="dropdown-item" href="#">Buy</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="#">Sell</a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <h3 class="header">Special, Vintage, and Unique Guitar Finds</h3>
+    <br>
+
+    <p class="header">If you're looking for classic or interesting guitars then look no further! Guitar Co. is dedicated to currating and delivering
+        the most unique and classic guitars around.
+    </p>
+
+    <div class="text-center">
+        <img src="guitar-picture1.jpg" class="img-fluid" alt="" width="700" height="500">
+    </div>
+    <br>
+    <h3 class="header">On Sale Now!</h3>
+    <div class ="container">
+        <table class="table table-dark table-hover">
+            <tr> 
+              <th>Guitar</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+                <td><img src="guitarsale1.png" class="img-fluid" alt="" width="300" height="300"></td>
+                <td><s>$1200</s>
+                    <br>
+                    <p>$700</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="guitarsale2.png" class="img-fluid" alt="" width="300" height="300"></td>
+                <td><s>$1800</s>
+                    <br>
+                    <p>$1250</p>
+            </tr>
+            <tr>
+                <td><img src="guitarsale3.png" class="img-fluid" alt="" width="300" height="300"></td>
+                <td><s>$1500</s>
+                    <br>
+                    <p>$900</p>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
